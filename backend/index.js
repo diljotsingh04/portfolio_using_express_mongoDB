@@ -23,7 +23,7 @@ app.use(bodyparser.urlencoded({
 // });
 
 // establishing connection with mongodb in cloud (atlas)
-// mongodb+srv://diljot_singh:diljot_singh@diljot.buqsh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
 
 mongoose.connect('mongodb+srv://<username>:<password>.buqsh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{
     useNewUrlParser: true,
