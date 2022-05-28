@@ -108,5 +108,5 @@ app.get('/downloads',(req, res)=>{
 
 // selecting the url and the port
 app.listen(port, ()=>{
-    console.log(`Server started at url http://127.0.0.1:8080 successfully`);
+    console.log(`Server started at url ${port} successfully`);
 });
