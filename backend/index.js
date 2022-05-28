@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 
 
 const router = express.Router();
-const port = 8080;
+const port = process.env.PORT || 8000;
 
 // bodyparser as json
 app.use(bodyparser.json());
